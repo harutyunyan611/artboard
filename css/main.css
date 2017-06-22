@@ -1,0 +1,464 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,500');
+/* fonts end*/
+html>body
+{
+	background-color: rgb(74, 84, 99);
+}
+html>*
+{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+html>body>div.container-fluid
+{
+	padding: 0;
+}
+html>body>div.container-fluid>div.cont-container
+{
+	padding: 20px 0;
+}
+/* navigation */
+html>body>div.container-fluid>header
+{
+	background: rgb(53, 62, 75);
+	height: 160px;
+}
+html>body>div.container-fluid>header>nav.navbar.navbar-custom
+{
+	border-radius: 0;
+}
+html>body>div.container-fluid>header>nav.navbar.navbar-custom>div.container-fluid>div.navbar-header>a.navbar-brand>div>img
+{
+	float: left;
+	margin-right: 6px;
+}
+html>body>div.container-fluid>header>nav.navbar.navbar-custom>div.container-fluid>div.navbar-header>a.navbar-brand>div>*
+{
+	color: white
+}
+html>body>div.container-fluid>header>nav.navbar.navbar-custom>div.container-fluid>div.navbar-header>a.navbar-brand>div>p.title
+{
+	float: left;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+html>body>div.container-fluid>header>nav.navbar.navbar-custom>div.container-fluid>div.navbar-header>a.navbar-brand>div>p.desc
+{
+	font-size: 9px;
+	line-height: 8px;
+}
+html>body>div.container-fluid>header>nav.navbar.navbar-custom>div.container-fluid>div#navbar>form>div>.search
+{
+    background: rgb(74,84, 99);
+    border: 0;
+    border-radius: 3px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;	
+    float: left;
+}
+html>body>div.container-fluid>header>nav.navbar.navbar-custom>div.container-fluid>div#navbar>form>div>button.btn-search
+{
+    height: 34px;
+    float: left;
+    border: 0;
+    position: static;
+    border-radius: 3px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 66px;
+    background-color: rgb(52,188,214);
+    color: white;
+}
+a.notification::after {
+    content: "1";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 11px;
+    left: 25px;
+    background: rgb(240, 111, 87);
+    color: white;
+    border-radius: 7.5px;
+    text-align: center;
+    line-height: 15px;
+    padding: 0px 2px 0px 0px;
+}
+html>body>div.container-fluid>header>nav.navbar.navbar-custom>div.container-fluid>div#navbar>ul.nav>li>*
+{
+	color: rgb(149, 161, 184);
+	transition: color .3s;
+}
+html>body>div.container-fluid>header>nav.navbar.navbar-custom>div.container-fluid>div#navbar>ul.nav>li>a:hover
+{
+	color: white;
+	background: rgb(53, 62, 75);
+}
+.nav>li>a:focus, .nav>li>a:hover, .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    text-decoration: none;
+	background: rgb(53, 62, 75);
+}
+/* end navigation */
+/* aside(LG G2) */
+html>body>div.container-fluid>div.cont-container>div:nth-child(1)
+{
+	padding-right: 0;
+}
+html>body>div.container-fluid>div.cont-container>div>div.navigation
+{
+    width: calc(100% - 30px);
+    min-height: 520px;
+    margin: 0 auto;
+	background: rgb(89, 101, 119);	
+
+}
+html>body>div.container-fluid>div.cont-container>div>div.navigation>div.header
+{
+	overflow: auto;
+    background: rgb(53, 62, 75);
+}
+html>body>div.container-fluid>div.cont-container>div>div.navigation>div.header>div.title
+{
+    color: white;
+    padding: 5px 12px;
+    font-size: 10px;
+    float: left;
+}
+html>body>div.container-fluid>div.cont-container>div>div.navigation>div.header>div.btn-close
+{
+    float: right;
+    color: rgb(53, 62, 75);
+    background: rgb(89, 101, 119);
+    width: 14px;
+    height: 14px;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 10px;
+    padding-right: 2px;
+    padding-top: 1px;
+    margin-top: 4.3px;
+    margin-right: 3px;
+}
+html>body>div.container-fluid>div.cont-container>div>div.navigation>ul
+{
+    list-style: none;
+    padding: 0;
+}
+html>body>div.container-fluid>div.cont-container>div>div.navigation>ul>li
+{
+	background: rgb(89, 101, 119);	
+	border-bottom: 1px solid rgb(105, 119, 141);
+	padding: 8px;
+	color: rgb(149, 161, 184);
+}
+html>body>div.container-fluid>div.cont-container>div>div.navigation>ul>li>a
+{
+	color: rgb(149, 161, 184);
+}
+html>body>div.container-fluid>div.cont-container>div>div.navigation>ul>li>a>i
+{
+	font-size: 20px;
+}
+html>body>div.container-fluid>div.cont-container>div>div.navigation>ul>li>a>span
+{
+	margin-left: 12px;
+	font-size: 18px;
+}
+/* content */
+html>body>div.container-fluid>div.cont-container>div:nth-child(2)
+{
+	padding-left: 0;
+}
+
+html>body>div.container-fluid>div.cont-container>div>div.content>div.ng-scope
+{
+    width: calc(100% - 30px);
+    min-height: 520px;
+    margin: 0 auto;
+	background: rgb(53, 62, 77);
+}
+html>body>div.container-fluid>div.cont-container>div>div.content>div.ng-scope>div.header
+{
+    background: rgb(53, 62, 75);
+    -webkit-box-shadow: 0px 6px 8px -3px rgba(0,0,0.1);
+    -moz-box-shadow: 0px 6px 8px -3px rgba(0,0,0.1);
+    box-shadow: 0px 6px 8px -3px rgba(0,0,0,0.1);
+}
+html>body>div.container-fluid>div.cont-container>div>div.content>div.ng-scope>div.header>div.title
+{
+    color: rgb(229, 230, 232);
+    font-size: 22px;
+    padding: 7px 20px;
+
+}
+html>body>div.container-fluid>div.cont-container>div>div.content>div.ng-scope>div.header>div.navigation>.nav-tabs
+{
+	border-bottom: 0px; 
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs>li>a:hover
+{
+	color: #555;
+    cursor: default;
+    background-color: rgb(53, 62, 75);
+    border-color: transparent;
+    border-bottom: 2px solid rgb(52, 188, 214);
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs>li>a:hover
+{
+	color: rgb(255, 255, 255);
+}
+.nav-tabs>li>a
+{
+	color: rgb(195, 197, 201);
+	font-size: 17px;
+    padding: 6px 35px;
+    text-transform: uppercase;
+}
+.tab-content>div
+{
+	padding: 10px 20px;
+}
+.tab-content>div>table
+{
+	width: 100%;
+}
+.tab-content>div>table>thead>tr>th
+{
+	color: rgb(106, 125, 154);
+}
+input[type="checkbox"]
+{
+	display: none;
+}
+input[type="checkbox"]:checked+label
+{
+	background: rgba(255,255,255,0.5);
+}
+
+input[type="checkbox"]+label
+{
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgb(170, 176, 185);
+    transition: background .3s;
+}
+.checkbox label, .radio label
+{
+	min-height: 0px; 
+    padding-left: 0px; 
+}
+.tab-content>div>table>thead>tr>th:nth-child(2)
+{
+	width: 30%;
+}
+.tab-content>div>table>thead>tr>th:nth-child(3)
+{
+	width: 20%;
+	text-align: right;
+}
+.message
+{
+	background: rgb(70, 83, 102);
+	overflow: auto;
+	margin-bottom: 15px;
+}
+.message>.header
+{
+	padding: 5px 10px;
+	border-bottom: 1px solid rgb(105, 119, 141);
+	overflow: auto;
+}
+.message>.header>div
+{
+	display: inline-block;
+}
+.message>.header>div.checkbox, .message>.header>div.info
+{
+	float: left;
+}
+.message>.header>div.buttons
+{
+	float: right;
+}
+.message>.header>div.info
+{
+	margin-left: 10px;
+}
+.message>.header>div.info>div.number
+{
+	color: rgb(231, 233, 235);
+	font-size: 18px;
+}
+.message>.header>div.info>div.date
+{
+	color: rgb(177, 183, 191);
+	font-size: 12px;
+}
+.message>.header>div.buttons>*
+{
+	color: rgb(149, 161, 184);
+	background: transparent;
+	padding-left: 3px;
+	padding-right: 3px;
+	transition: .3s;
+}
+.message>.header>div.buttons>*:hover
+{
+	color: rgb(255, 255, 255);
+
+}
+
+.message>.body
+{
+	padding: 5px 10px;
+	color: rgb(255, 255, 255);
+}
+.message.readen
+{
+	opacity: 0.5;
+}
+.contacts
+{
+	padding: 5px 15px;
+}
+.contacts>table
+{
+	width: 100%;
+}
+.contacts>table>thead>tr>td>div
+{
+	display: inline-block;
+}
+.contacts>table>thead>tr>td>div.leter
+{
+	color: rgb(255, 255, 255);
+	font-weight: 500;
+	margin: 25px 0;
+}
+.contacts>table>thead>tr>td>div.search
+{
+	float: right;
+}
+.contacts>table>thead>tr>td>div.dropdown
+{
+    float: right;
+    padding-top: 13px;
+    padding-left: 8px;
+}
+.contacts>table>thead>tr>td>div.dropdown>a
+{
+	color: white;
+	text-decoration: none !important;
+	vertical-align: bottom;
+}
+
+.contacts>table>thead>tr>td>div.dropdown>ul.dropdown-menu
+{
+    top: 175%;
+    left: -116px;
+}
+
+
+.contacts>table>thead>tr>td>div.search>div.form-group
+{
+	overflow: auto;
+}
+.contacts>table>thead>tr>td>div.search>div.form-group>input
+{
+	background: rgb(74,84, 99);
+	border: 0;
+	border-radius: 3px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;	
+	float: left;
+	width: auto;
+}
+.contacts>table>thead>tr>td>div.search>div.form-group>button.btn-search
+{
+	height: 34px;
+    float: left;
+    border: 0;
+    position: static;
+    border-radius: 3px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 66px;
+    background-color: rgb(52,188,214);
+    color: white;
+}
+.contacts>table>tbody>tr>td>img
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+}
+.contacts>table>tbody>tr
+{
+	background: rgb(70, 83, 102);
+	border-bottom: 1px rgb(53, 62, 77) solid;
+}
+.contacts>table>tbody>tr>td
+{
+	padding: 10px 15px;
+}
+.contacts>table>tbody>tr>td:nth-child(2)
+{
+	color: white;
+}
+.contacts>table>tbody>tr>td:nth-child(4)
+{
+	float: right;
+}
+.contacts>table>tbody>tr>td:nth-child(4)>button
+{
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	margin-top: 7px;
+}
+.contacts>table>tbody>tr>td
+{
+	color: rgb(181, 186, 194);
+}
+
+
+
+
+
+
+
+
+
+/*Resp fix*/
+@media only screen and (max-width: 768px)
+{
+	html>body>div.container-fluid>div.cont-container>div>div.content>div.ng-scope
+	{
+		width: 100%;
+	}
+	html>body>div.container-fluid>div.cont-container>div>div.navigation
+	{
+		margin: 0;
+	    width: calc(100% - 15px);
+	}
+	div#navbar
+	{
+	    z-index: 9999;
+	    position: absolute;
+	    background: white;
+	    margin: 34px 0px;
+	    padding: 9px 5px;
+	    overflow: hidden;
+	    width: 100%;
+    	left: 0;
+	}
+	button.navbar-toggle {
+	    border-color: white;
+	}
+	button.navbar-toggle>* 
+	{
+		background-color: white
+	}
+}

@@ -1,9 +1,93 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-</head>
-<body>
+	<head>
+		<title>Artboard 2</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body ng-app="protectme">
+		<div class="container-fluid">
+			<header>
+				<nav class="navbar navbar-custom">
+					<div class="container-fluid">
+					  <div class="navbar-header">
+					    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+					      <span class="sr-only">Toggle navigation</span>
+					      <span class="icon-bar"></span>
+					      <span class="icon-bar"></span>
+					      <span class="icon-bar"></span>
+					    </button>
+					    <a class="navbar-brand" href="#/">
+					    	<div>
+					    		<img src="img/logo.png"><p class="title">Protect me</p><p class="desc">if you can</p>					    		
+					    	</div>
+					    </a>
+					  </div>
+					  <div id="navbar" class="navbar-collapse collapse">
+					    <ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="" class="notification">
+									<i class="glyphicon glyphicon-bell" style="font-size: 23px;"></i>								
+								</a>
+							</li>
+							<li class="dropdown">
+								<a href="" class="dropdown-toggle" data-toggle="dropdown">User <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="">Action</a></li>
+									<li role="separator" class="divider"></li>
+									<li class="dropdown-header">Nav header</li>
+									<li><a href="">Separated link</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="" class="dropdown-toggle" data-toggle="dropdown">Products <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="">Action</a></li>
+									<li role="separator" class="divider"></li>
+									<li class="dropdown-header">Nav header</li>
+									<li><a href="">Separated link</a></li>
+								</ul>
+							</li>
+					    </ul>
+						<form class="navbar-form navbar-right">
+							<div class="form-group">
+								<input type="text" class="form-control search" placeholder="Search">
+								<button type="submit" class="btn-search glyphicon glyphicon-search"></button>
+							</div>
+						</form>
+					  </div>
+					</div>
+				</nav>
+			</header>
+			<div class="cont-container row">
+				<div class="col-lg-3">
+					<div class="navigation">
+						<div class="header"><div class="title">LG G2</div><div class="btn-close"><i class="glyphicon glyphicon-menu-left"></i></div></div>
+						<ul>
+							<li><a href="#/messages"><i class="glyphicon glyphicon-earphone"></i><span>Messages</span></a></li>
+							<li><a href="#/contacts"><i class="glyphicon glyphicon-earphone"></i><span>Contacts</span></a></li>
+							<li><a href="#/other"><i class="glyphicon glyphicon-earphone"></i><span>Calls</span></a></li>
 
-</body>
+						</ul>						
+					</div>
+				</div>
+				<div class="col-lg-9">
+					<div class="content">
+						<div ng-view></div>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- 		<script type="text/javascript" src="js/angular.min.js"></script>
+		<script type="text/javascript" src="js/angular-route.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.min.js"></script> -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.js"> </script>    
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-route.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.js"></script>
+
+		<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+		<script type="text/javascript" src="js/routes.js"></script>
+	</body>
 </html>
